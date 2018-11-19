@@ -1,4 +1,5 @@
 const User = require('../models/user');
+const bcrypt = require('bcrypt');
 
 function addEmployee(req, res) {
     let body = req.body;
